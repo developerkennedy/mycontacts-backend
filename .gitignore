@@ -1,0 +1,38 @@
+# Ignorar arquivos de sistema e temporários
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos de debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variáveis de ambiente
+.env
+.env.local
+
+# Pastas de dependências (por exemplo, para projetos Node.js)
+node_modules/
+
+# Diretórios de build/compilação
+dist/
+build/
+.idea
+# Arquivos temporários e caches
+tmp/
+temp/
+
+# Arquivos e pastas gerados por IDEs e editores de código
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Outros arquivos compilados ou binários
+*.exe
+*.dll
+*.so
+*.dylib
